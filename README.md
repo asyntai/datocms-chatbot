@@ -19,10 +19,20 @@ This plugin embeds the Asyntai chatbot on your site and provides a simple admin 
 
 ## Installation
 
+### From the Marketplace
 1. Go to your DatoCMS project dashboard
 2. Navigate to **Settings** (gear icon) > **Plugins**
 3. Click **"Add new plugin"**
 4. Search for **"Asyntai"** and click **Install**
+
+### Manual Installation
+1. Go to your DatoCMS project dashboard
+2. Navigate to **Settings** (gear icon) > **Plugins**
+3. Click **"Add a new private plugin"**
+4. Enter:
+   - **Plugin name**: `Asyntai AI Chatbot`
+   - **Entry point URL**: `https://unpkg.com/datocms-plugin-asyntai-chatbot/dist/index.html`
+5. Click **"Save settings"**
 
 Note: Alternatively, if you don't want to use a plugin, you can also get a JavaScript snippet at [asyntai.com/dashboard](https://asyntai.com/dashboard) and manually insert it into your web pages.
 
